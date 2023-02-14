@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <title>tip-calculator-app-main</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,400&family=Montserrat:ital,wght@0,100;0,300;0,400;0,500;0,600;1,100;1,300;1,400&family=Overpass:wght@300;600&family=Public+Sans:ital,wght@0,300;0,400;0,700;0,800;1,300;1,400;1,700&family=Space+Grotesk:wght@300;400;500;600&family=Space+Mono:wght@400;700&family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <img src="logo.svg" alt="" class="body-logo">
+    <div class="container">
+        <div class="background">
+            <div class="info-section">
+                <div class="left-section">
+                   <form action="" class="form-container">
+                   
+                    <label for="">Bill</label>
+                    <img src="icon-dollar.svg" alt="" class="img-input">
+                    <input type="tel" class="input" placeholder="0">
+                </form>
+            <div class="section-container">
+          <p>Select Tip %</p>
+          <div class="button-container">
+            <button class="btn" id="five-percent">5%</button>
+            <button class="btn" id="ten-percent">10%</button>
+            <button class="btn" id="fifteen-percent">15%</button>
+            <button class="btn" id="twentyfive-percent">25%</button>
+            <button class="btn" id="fifty-percent">50%</button>
+            
+            <input type="tel" class="custom" placeholder="custom">
+  
+          </div>
+
+         <div class="input-container">
+            <label for="" class="label-cont">Number of people</label>
+            <span><img src="icon-person.svg" alt=""></span>
+            <input type="text" class="people" placeholder="0">
+            <p class="error">Can't be zero</p>
+         </div>
+            </div>
+                
+                </div>
+
+                <div class="right-section">
+                    <div class="preview">
+                        <div class="first-content">
+                            <div class="person-desc">
+                                <h1>Tip Amount</h1>
+                                <p>/person</p>
+                            </div>
+                                <div class="amount">
+                                    <span></span>
+                                    <span id="person-amt"></span>
+                                </div>
+                          
+                        </div>
+
+                        <div class="second-content">
+                            <div class="person-desc">
+                                <h1>Tip Amount</h1>
+                                <p>/person</p>
+                            </div>
+                                <div class="amount">
+                                    <span></span>
+                                    <span id="second-amt"></span>
+                                </div>
+                          
+                        </div>
+                        <button class="reset">RESET</button>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    <div class="praise">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noopener">Frontend Mentor</a>. 
+        Coded by <a href="https://github.com/Lee145" target="_blank" rel="noopener">FavourLee</a>.
+      </div>
+
+
+    <script src="index.js"></script>
+</body>
+</html>
